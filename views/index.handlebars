@@ -1,0 +1,53 @@
+<h1 class="text-center text-light">你想對誰說幹話</h1>
+<div class="container">
+  <form method="POST" action="/">
+    <!-- developer -->
+    <div class="d-flex justify-content-evenly" id="character">
+      <div class="card" style="width: 18rem;">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+          class="card-img-top" alt="developer">
+        <div class="card-body">
+          <div class="text-center">
+            <input class="form-check-input" type="radio" name="character" id="inlineRadio1" value="developer">
+            <label class="form-check-label" for="flexRadioDefault1">
+              工程師
+            </label>
+          </div>
+        </div>
+      </div>
+      <!-- designer -->
+      <div class="card" style="width: 18rem;">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+          class="card-img-top" alt="designer">
+        <div class="card-body">
+          <div class="text-center">
+            <input class="form-check-input" type="radio" name="character" id="inlineRadio2"value="designer">
+            <label class="form-check-label" for="flexRadioDefault1">
+              設計師
+            </label>
+          </div>
+        </div>
+      </div>
+      <!-- founder -->
+      <div class="card" style="width: 18rem;">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+          class="card-img-top" alt="founder">
+        <div class="card-body">
+          <div class="text-center">
+            <input class="form-check-input" type="radio" name="character"id="inlineRadio3"value="founder">
+            <label class="form-check-label" for="flexRadioDefault1">
+              創業家
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- button & Generator output -->
+    <div class="d-flex d-flex justify-content-center mt-3">
+      <div>
+        <button type="submit" class="btn btn-primary mr-3">講幹話</button>
+      </div>
+      <textarea class="form-control w-50" id="exampleFormControlTextarea1" rows="3">{{talkRubbish}}</textarea>
+    </div>
+  </form>
+</div>
