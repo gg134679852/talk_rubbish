@@ -19,9 +19,9 @@ cd talk_rubbish
 ```
 npm install
 ```
-3. 啟動伺服器
+3. 啟動專案
 ```
-node app.js
+npm run dev
 ```
 4. 若終端機出現下列字樣，代表伺服器成功啟動
 ```
